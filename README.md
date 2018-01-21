@@ -35,8 +35,7 @@ optional arguments:
                         Directory where commpile_commands.json exists
                         (default: .)
   -o ODIRECTORY, --out ODIRECTORY
-                        Directory where commpile_commands.json exists
-                        (default: .)
+                        Destination directory (default: .)
   -c CONFIG, --config CONFIG
                         Configuration file (default: ~/.config/compile_commands_conv/compile_commands_conv.yml)
   -v, --verbose         Verbose output (default: False)

@@ -248,7 +248,7 @@ def main():
         required=False,
         default='.',
         dest='odirectory',
-        help='Directory where commpile_commands.json exists')
+        help='Destination directory')
     argparser.add_argument(
         '-c', '--config',
         required=False,
