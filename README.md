@@ -4,9 +4,10 @@
 Convert compile_commands.json output by CMake to another format
 
 ## Features
-Convert compilie_commands.json to =>
-    + [ALE](https://github.com/w0rp/ale) options
-    + [Eclipse CDT](https://www.eclipse.org/cdt/) Path and Symbols
+Convert compilie_commands.json to `=>`
+
++ [ALE](https://github.com/w0rp/ale) options
++ [Eclipse CDT](https://www.eclipse.org/cdt/) Path and Symbols
 
 ## Supprted OS
 + Windows
