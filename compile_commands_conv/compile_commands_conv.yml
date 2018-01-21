@@ -1,0 +1,12 @@
+---
+enabled:
+  - ale
+  - cdt
+
+builder:
+  ale:
+    name: '.lvimrc'
+    absolute: true
+  cdt:
+    name: '.cdt.xml'
+    absolute: false

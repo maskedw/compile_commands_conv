@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+{%- for lang in cdt_languages %}
+<language name="{{lang.name}}">
+{%- for x in lang.include_dirs %}
+    <includepath>{{x}}</includepath>
+{%- endfor %}
+</language>
+{%- endfor %}
+</section>
+
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+{%- for lang in cdt_languages %}
+<language name="{{lang.name}}">
+{%- for x in lang.definitions %}
+    <macro><name>{{ x.name }}</name> <value>{{ x.value }}</value></macro>
+{%- endfor %}
+</language>
+{%- endfor %}
+</section>
+</cdtprojectproperties>
