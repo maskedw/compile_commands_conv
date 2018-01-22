@@ -16,7 +16,10 @@ setup(
     url='',
     license='MIT License',
     packages=find_packages(exclude=('tests', 'docs')),
-    package_data={'compile_commands_conv': ['templates/*']},
+    package_data={'compile_commands_conv': [
+        'templates/*',
+        'compile_commands_conv.yml',
+    ]},
     entry_points={
         'console_scripts': [entry_point],
     },
