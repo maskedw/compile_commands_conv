@@ -18,7 +18,7 @@ Convert compilie_commands.json to `=>`
 
 ## Installation
 ```sh
-$ pip install git+https://github.com/maskedw/compile_commands_conv
+$ pip install git+https://github.com/maskedw/compile_commands_conv -U
 ```
 
 ## Usage
